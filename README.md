@@ -1,45 +1,37 @@
-﻿# Arctic Maze Runner
+<h1 align="center">Artic Maze</h1>
 
-## Information
+<div align="center">
+  <img src="https://img.shields.io/badge/Unity-gray?style=flat&logo=unity&logoColor=white" alt="Unity Badge"/>
+  <img src="https://img.shields.io/badge/C%23-green?style=flat&logo=csharp&logoColor=white" alt="C# Badge"/>
+  <img src="https://img.shields.io/badge/Pair%20Programming-blue?style=flat&logo=git&logoColor=white" alt="Pair Programming Badge"/>
+</div>
 
-Contrôle: 
-- Mouvement : W,A,S,D
-- Activer téléporteur : T
-- Activer destructeur : Espace
-- Désactiver destructeur : Z
-- Menu pause : Échap
+<h2 align="center">Notes : 85%</h2>
 
-L'écran de victoire apparaît au dernier niveau.
+<h2 align="center">Description</h2>
 
-## Members:
-- **Mario Gagné-Rayes**
-- **Rémi Lavallée**
+<p align="center">
+Un mini jeu où le joueur doit se rendre à un igloo pour passer au prochain niveau. Le joueur avance par frame et perd de la vie périodiquement avec ces mouvements. Il doit détourner les ennemis et briser des murs pour se frayer un chemin à destination.
+</p>
 
-## Features:
-- Load the map and create all entities - **Mario**
-- Move the Penguin - **Mario**
-- Update the Health (energy) when penguin eats or moves - **Rémi & Mario**
-- Attack the enemies - **Rémi**
-- Use Wall Destroyers - **Mario**
-- Game Over - **Rémi**
-- Game Winner - **Rémi**
+<h2 align="center">Éléments techniques du projet</h2>
 
-## Additional Features:
+<div align="center">
+<li><img src="https://img.shields.io/badge/Tilemap-yellow?style=flat&labelColor=yellow&color=yellow" alt="Tilemap Badge"/> Utilisation de Tilemap pour créer des niveaux dynamiques et modifiables.</li>
+<li><img src="https://img.shields.io/badge/Scriptable_Object-purple?style=flat&labelColor=purple&color=purple" alt="Scriptable Object Badge"/> Implémentation de Scriptable Object pour gérer les données du jeu de manière flexible et modulaire.</li>
+<li><img src="https://img.shields.io/badge/Scene_Additive-red?style=flat&labelColor=red&color=red" alt="Scene Additive Badge"/> Utilisation de scènes additives pour charger plusieurs scènes simultanément et améliorer la modularité.</li>
+</div>
 
-- Système de bombe qui fait perdre de l'energie au pengouin - **Mario**
-- Téléporteurs raccourcie - **Rémi**
+<h2 align="center">Contrôles</h2>
 
-## Setup naming conventions
+<div align="center">
 
-1. In Rider, go to Settings
-2. Click Manage Layers, bottom left
-3. Right click the second layer (Solution Team-shared)
-4. Click Import from -> Import from file
-5. Select naming-convention.DotSettings
+| **Action**             | **Touche**           |
+|------------------------|----------------------|
+| **Move**               | W / A / S / D        |
+| **Destructor On**      | Space                |
+| **Destructor Off**     | Z                    |
+| **Paused**             | Escape               |
+| **Teleport**           | T                    |
 
-## Known issues
-> Before submission day, write all the known issues and missing features you know.
-
-
-
-
+</div>
